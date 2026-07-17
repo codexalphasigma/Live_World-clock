@@ -1,9 +1,12 @@
 const cities = [
   { name: 'New York', timeZone: 'America/New_York' },
   { name: 'London', timeZone: 'Europe/London' },
-  { name: 'Tokyo', timeZone: 'Asia/Tokyo' },
-  { name: 'Delhi', timeZone: 'Asia/Kolkata' },
-  { name: 'Sydney', timeZone: 'Australia/Sydney' }
+  { name: 'Japan', timeZone: 'Asia/Tokyo' },
+  { name: 'South Korea', timeZone: 'Asia/Seoul' },
+  { name: 'Thailand', timeZone: 'Asia/Bangkok' },
+  { name: 'Australia', timeZone: 'Australia/Sydney' },
+  { name: 'South Africa', timeZone: 'Africa/Johannesburg' },
+  { name: 'Delhi', timeZone: 'Asia/Kolkata' }
 ];
 
 const clockGrid = document.getElementById('clockGrid');
